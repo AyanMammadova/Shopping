@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="shadow"></div>
+    <header>
+        <h2>Shopping Page🛒</h2>
+        <div onclick="showcart()" id="fasoliddiv">
+            <p  class="fa-solid fa-cart-shopping"></p>
+            <div id="cartcountdiv">0</div>
+        </div>
+        
+    </header>
+    <main>
+        <div id="cartcontainer">
+            <div id="cart">
+                <p onclick="closecart()"  id="xmark" class="fa-solid fa-xmark"></p>
+                <h4>Your Basket</h4>
+                <div id="cartlist">
+                </div>
+                
+                <h5 id="totalamount"></h5>
+            </div>
+        </div>
+        <div id="menu">
+            <ul id="list">
+                <li onclick="show()">All Products</li>
+                <li onclick="show('tech')">Technology</li>
+                <li onclick="show('food')">Food</li>
+                <li onclick="show('furniture')">Furniture</li>
+                <li onclick="show('clothing')">Clothing</li>
+            </ul>
+        </div>
+        <div id="cards">
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
