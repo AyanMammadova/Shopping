@@ -22,5 +22,5 @@ Welcome to my Shopping website project! This website allows users to browse and 
 
 ## Deployment
 
-The website is deployed and accessible at https://ayanmammadova.github.io/Shopping/
+The website is deployed and accessible at  https://shopping-seven-ruddy.vercel.app/
 
